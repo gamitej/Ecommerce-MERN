@@ -1,0 +1,65 @@
+.ind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 84.5vh;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  overflow-y: hidden;
+}
+
+.inds{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  overflow-y: hidden;
+}
+
+.ind_whites{
+  background:none;
+}
+
+.ind_white{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.crd {
+  width: 25rem;
+}
+
+.prd-1{
+  font-size: 1.5rem;
+}
+
+.tit{
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .crd {
+    width: 22rem;
+    
+  }
+
+  .prd-1{
+    font-size: 1.2rem;
+  }
+  .tit{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .crd {
+    width: 22rem;
+  }
+
+  .prd-1{
+    font-size: .8rem;
+  }
+
+  .tit{
+    font-size: .8rem;
+  }
+}

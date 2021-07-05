@@ -1,0 +1,72 @@
+html {
+  font-size: 1rem;
+}
+
+input {
+  height: 2.5rem;
+  width: 14rem;
+  padding: 1rem 1rem;
+  overflow: hidden;
+  outline: none;
+  border-radius: 1rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  margin: auto;
+  text-align: center;
+  border-radius: 2rem;
+  height: 80vh;
+}
+
+.main_1 {
+  width:100%;
+  height:30rem;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border-radius: 2rem;
+  box-shadow: 0 1rem 2rem -1rem #000;
+}
+
+.title{
+  margin-top: 3rem;
+}
+label {
+  color: black;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.btnn {
+  border-radius: 1.5rem;
+  width: 8rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1rem 2rem -1rem #000;
+}
+#spn {
+  font-size: 0.8rem;
+  color: red;
+}
+#chk {
+  height: 1rem;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  color: lightcoral;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+@media screen and (max-width:800px){
+  html{
+    font-size:.8rem;
+  }
+}
+
+@media screen and (max-width:530px){
+  html{
+    font-size:.6rem;
+  }
+}
