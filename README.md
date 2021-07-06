@@ -13,11 +13,16 @@ https://promajor.netlify.app/
 4. In cart section you can view the product you added and can make payment ( we used STRIPE for this ).
 
 
-# Project Contributers 
+# Project Contributors 
 
 Front-End Part is done by me :- https://github.com/gamitej
 
 BackEnd and Database is done by my friend :- https://github.com/prklm10
+
+
+# Back-End Code :- 
+
+https://github.com/prklm10/E-Commerce-MERN
 
 
 # Hosting 
